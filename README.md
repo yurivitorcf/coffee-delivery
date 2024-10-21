@@ -1,50 +1,64 @@
-# React + TypeScript + Vite
+# Coffee Delivery Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was created as part of a challenge by Rocketseat to challenge our skills and knowledge. We were provided with a Figma design that serves as a blueprint to help us build a polished and professional application. <br>
+The proposed challenge was to solve the application requirements from scratch by following only what was taught before in class and through research to solve problems during development.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Demo](#demo)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
 
-## Expanding the ESLint configuration
+## Demo
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Main Page
 
-- Configure the top-level `parserOptions` property like this:
+![Demo Screenshot](https://raw.githubusercontent.com/yurivitorcf/coffee-delivery/main/public/mainpage.png)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Confirming Order Page
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+![Demo Screenshot](https://raw.githubusercontent.com/yurivitorcf/coffee-delivery/main/public/confirmingOrderPage.png)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Features
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- States
+- ContextAPI
+- LocalStorage
+- State immutability
+- Lists and keys in ReactJS
+- Properties
+- Componentization
+
+## Technologies Used
+
+- **Frontend:** HTML, CSS, JavaScript
+- **Frameworks/Libraries:** React, React Hook Form, Zod, Immer, Styled-Components, React-Router-Dom
+- **Design:** Figma ([link to the Figma design](https://www.figma.com/file/5yT9ZzZmRQRS4yivGGB3pl/Coffee-Delivery/duplicate))
+- **Other Technologies:** Typescript
+
+## Installation
+
+Follow these steps to set up the project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yurivitorcf/coffee-delivery
+
+2. Navigate to the project directory:
+   ```bash
+   cd coffee-delivery
+   ```
+3. Install the necessary dependencies:
+   ```bash
+   npm install
+
+## Usage
+
+Instructions on how to run the project locally:
+
+1. Start the development server:
+   ```bash
+   npm run dev
+2. Open your browser and go to http://localhost:3000  
